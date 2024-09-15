@@ -53,6 +53,10 @@ header {
   text-align: center;
   margin: 30px auto;
 }
+main {
+  min-height: 52vh;
+  margin: 175px auto 0px;
+}
 .qr-card {
   width: 320px;
   height: 488px;
@@ -61,6 +65,9 @@ header {
   padding: 16px 16px 40px 16px;
   box-sizing: border-box;
   border-radius: 20px;
+  box-shadow: 9px 13px 44px -30px rgba(250,0,0,0.53);
+    -webkit-box-shadow: 9px 13px 44px -30px rgba(0, 0, 0, 0.53);
+      -moz-box-shadow: 9px 13px 44px -30px rgba(250,0,0,0.53);
 }
 .qr-card img {
   width: 288px;
@@ -72,7 +79,7 @@ header {
   margin: 24px 0px 0px 0px;
   text-align: center;
 }
-h4 {
+h2 {
   font-size: 22px;
   font-weight: 900;
   color: var(--slate-900);
